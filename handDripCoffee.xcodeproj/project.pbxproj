@@ -7,13 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D0B8FDB281A1819005E4909 /* handDripCoffeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B8FDA281A1819005E4909 /* handDripCoffeeApp.swift */; };
+		4D0B8FDB281A1819005E4909 /* HandDripCoffeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B8FDA281A1819005E4909 /* HandDripCoffeeApp.swift */; };
 		4D0B8FDD281A1819005E4909 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B8FDC281A1819005E4909 /* ContentView.swift */; };
 		4D0B8FDF281A181D005E4909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B8FDE281A181D005E4909 /* Assets.xcassets */; };
 		4D0B8FE2281A181D005E4909 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B8FE1281A181D005E4909 /* Preview Assets.xcassets */; };
 		4D0B8FEC281A181D005E4909 /* handDripCoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B8FEB281A181D005E4909 /* handDripCoffeeTests.swift */; };
 		4D0B8FF6281A181D005E4909 /* handDripCoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B8FF5281A181D005E4909 /* handDripCoffeeUITests.swift */; };
 		4D0B8FF8281A181D005E4909 /* handDripCoffeeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B8FF7281A181D005E4909 /* handDripCoffeeUITestsLaunchTests.swift */; };
+		4D0B9007281A7CE4005E4909 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B9006281A7CE4005E4909 /* ColorExtension.swift */; };
+		4D0B9009281B6BB1005E4909 /* MianSeletedBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B9008281B6BB1005E4909 /* MianSeletedBar.swift */; };
+		4D66C4092823959400EDC205 /* CoffeeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D66C4082823959400EDC205 /* CoffeeDetail.swift */; };
+		4D86C6C8282165AB004BC81D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4D86C6C7282165AB004BC81D /* Lottie */; };
+		4D86C6CA282165D1004BC81D /* LottieView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D86C6C9282165D1004BC81D /* LottieView1.swift */; };
+		4D86C6CE28216A6B004BC81D /* lf20_jUaIOT.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D86C6CD28216A6B004BC81D /* lf20_jUaIOT.json */; };
+		4D86C6D028217AFA004BC81D /* lf30_editor_hhraccf4.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D86C6CF28217AFA004BC81D /* lf30_editor_hhraccf4.json */; };
+		4D86C6D228218AF5004BC81D /* LottieView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D86C6D128218AF5004BC81D /* LottieView2.swift */; };
+		4D86C6D428218E95004BC81D /* lf30_editor_s11lodtv.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D86C6D328218E95004BC81D /* lf30_editor_s11lodtv.json */; };
+		4D86C6D628218ED8004BC81D /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D86C6D528218ED8004BC81D /* LottieView.swift */; };
+		4D86C6ED2822CABA004BC81D /* HanddripGuide10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D86C6EC2822CABA004BC81D /* HanddripGuide10.swift */; };
+		4D86C6EF2822CAC9004BC81D /* HanddripGuide11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D86C6EE2822CAC9004BC81D /* HanddripGuide11.swift */; };
+		4D86C6F12822CAE1004BC81D /* HanddripGuide12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D86C6F02822CAE1004BC81D /* HanddripGuide12.swift */; };
+		4D86C6F32822CAED004BC81D /* HanddripGuide13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D86C6F22822CAED004BC81D /* HanddripGuide13.swift */; };
+		4DCB2652281D8203006923C5 /* GridCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB2651281D8203006923C5 /* GridCardItem.swift */; };
+		4DCB2654281D82DB006923C5 /* CoffeeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB2653281D82DB006923C5 /* CoffeeInfo.swift */; };
+		4DCB2656281D8334006923C5 /* CoffeeSubInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB2655281D8334006923C5 /* CoffeeSubInfo.swift */; };
+		4DCB265A281D84BC006923C5 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB2659281D84BC006923C5 /* ToggleButton.swift */; };
+		4DD1D934281F720B00EBBEE6 /* HanddripGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1D933281F720B00EBBEE6 /* HanddripGuide.swift */; };
+		4DD55CA9281FBC7B00A03F42 /* HanddripGuide2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD55CA8281FBC7B00A03F42 /* HanddripGuide2.swift */; };
+		4DD55CAD281FC20B00A03F42 /* HanddripGuide3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD55CAC281FC20B00A03F42 /* HanddripGuide3.swift */; };
+		4DD55CB1281FC8D400A03F42 /* HanddripGuide4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD55CB0281FC8D400A03F42 /* HanddripGuide4.swift */; };
+		4DD55CB3281FC96600A03F42 /* HanddripGuide5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD55CB2281FC96600A03F42 /* HanddripGuide5.swift */; };
+		4DD55CB5281FCAE300A03F42 /* HanddripGuide6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD55CB4281FCAE300A03F42 /* HanddripGuide6.swift */; };
+		4DD55CB7281FCBCE00A03F42 /* HanddripGuide7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD55CB6281FCBCE00A03F42 /* HanddripGuide7.swift */; };
+		4DD55CB9281FF5EA00A03F42 /* HanddripGuide8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD55CB8281FF5EA00A03F42 /* HanddripGuide8.swift */; };
+		4DD55CBC281FFD7200A03F42 /* HanddripGuide9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD55CBB281FFD7200A03F42 /* HanddripGuide9.swift */; };
+		4DD55CBE28200A7C00A03F42 /* HanddripGuideLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD55CBD28200A7C00A03F42 /* HanddripGuideLast.swift */; };
+		4DD55CC0282038EC00A03F42 /* SwiftUIView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD55CBF282038EC00A03F42 /* SwiftUIView10.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +64,7 @@
 
 /* Begin PBXFileReference section */
 		4D0B8FD7281A1819005E4909 /* handDripCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = handDripCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D0B8FDA281A1819005E4909 /* handDripCoffeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handDripCoffeeApp.swift; sourceTree = "<group>"; };
+		4D0B8FDA281A1819005E4909 /* HandDripCoffeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandDripCoffeeApp.swift; sourceTree = "<group>"; };
 		4D0B8FDC281A1819005E4909 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D0B8FDE281A181D005E4909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D0B8FE1281A181D005E4909 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +73,34 @@
 		4D0B8FF1281A181D005E4909 /* handDripCoffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = handDripCoffeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0B8FF5281A181D005E4909 /* handDripCoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handDripCoffeeUITests.swift; sourceTree = "<group>"; };
 		4D0B8FF7281A181D005E4909 /* handDripCoffeeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handDripCoffeeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D0B9006281A7CE4005E4909 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		4D0B9008281B6BB1005E4909 /* MianSeletedBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MianSeletedBar.swift; sourceTree = "<group>"; };
+		4D66C4082823959400EDC205 /* CoffeeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDetail.swift; sourceTree = "<group>"; };
+		4D86C6C9282165D1004BC81D /* LottieView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView1.swift; sourceTree = "<group>"; };
+		4D86C6CD28216A6B004BC81D /* lf20_jUaIOT.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lf20_jUaIOT.json; sourceTree = "<group>"; };
+		4D86C6CF28217AFA004BC81D /* lf30_editor_hhraccf4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lf30_editor_hhraccf4.json; sourceTree = "<group>"; };
+		4D86C6D128218AF5004BC81D /* LottieView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView2.swift; sourceTree = "<group>"; };
+		4D86C6D328218E95004BC81D /* lf30_editor_s11lodtv.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lf30_editor_s11lodtv.json; sourceTree = "<group>"; };
+		4D86C6D528218ED8004BC81D /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		4D86C6EC2822CABA004BC81D /* HanddripGuide10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanddripGuide10.swift; sourceTree = "<group>"; };
+		4D86C6EE2822CAC9004BC81D /* HanddripGuide11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanddripGuide11.swift; sourceTree = "<group>"; };
+		4D86C6F02822CAE1004BC81D /* HanddripGuide12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanddripGuide12.swift; sourceTree = "<group>"; };
+		4D86C6F22822CAED004BC81D /* HanddripGuide13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanddripGuide13.swift; sourceTree = "<group>"; };
+		4DCB2651281D8203006923C5 /* GridCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCardItem.swift; sourceTree = "<group>"; };
+		4DCB2653281D82DB006923C5 /* CoffeeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeInfo.swift; sourceTree = "<group>"; };
+		4DCB2655281D8334006923C5 /* CoffeeSubInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeSubInfo.swift; sourceTree = "<group>"; };
+		4DCB2659281D84BC006923C5 /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		4DD1D933281F720B00EBBEE6 /* HanddripGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanddripGuide.swift; sourceTree = "<group>"; };
+		4DD55CA8281FBC7B00A03F42 /* HanddripGuide2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanddripGuide2.swift; sourceTree = "<group>"; };
+		4DD55CAC281FC20B00A03F42 /* HanddripGuide3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanddripGuide3.swift; sourceTree = "<group>"; };
+		4DD55CB0281FC8D400A03F42 /* HanddripGuide4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanddripGuide4.swift; sourceTree = "<group>"; };
+		4DD55CB2281FC96600A03F42 /* HanddripGuide5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanddripGuide5.swift; sourceTree = "<group>"; };
+		4DD55CB4281FCAE300A03F42 /* HanddripGuide6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanddripGuide6.swift; sourceTree = "<group>"; };
+		4DD55CB6281FCBCE00A03F42 /* HanddripGuide7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanddripGuide7.swift; sourceTree = "<group>"; };
+		4DD55CB8281FF5EA00A03F42 /* HanddripGuide8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanddripGuide8.swift; sourceTree = "<group>"; };
+		4DD55CBB281FFD7200A03F42 /* HanddripGuide9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanddripGuide9.swift; sourceTree = "<group>"; };
+		4DD55CBD28200A7C00A03F42 /* HanddripGuideLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanddripGuideLast.swift; sourceTree = "<group>"; };
+		4DD55CBF282038EC00A03F42 /* SwiftUIView10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView10.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D86C6C8282165AB004BC81D /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +152,25 @@
 		4D0B8FD9281A1819005E4909 /* handDripCoffee */ = {
 			isa = PBXGroup;
 			children = (
-				4D0B8FDA281A1819005E4909 /* handDripCoffeeApp.swift */,
+				4D0B9004281A7CC3005E4909 /* Helper */,
+				4D0B8FDA281A1819005E4909 /* HandDripCoffeeApp.swift */,
+				4DCB2651281D8203006923C5 /* GridCardItem.swift */,
 				4D0B8FDC281A1819005E4909 /* ContentView.swift */,
+				4D66C4082823959400EDC205 /* CoffeeDetail.swift */,
+				4D0B9008281B6BB1005E4909 /* MianSeletedBar.swift */,
+				4DCB2653281D82DB006923C5 /* CoffeeInfo.swift */,
+				4DCB2655281D8334006923C5 /* CoffeeSubInfo.swift */,
+				4DCB2659281D84BC006923C5 /* ToggleButton.swift */,
+				4D86C6D828219AF0004BC81D /* HanddripGuideView */,
+				4D86C6D728219AB3004BC81D /* New Group */,
+				4DD55CBF282038EC00A03F42 /* SwiftUIView10.swift */,
+				4D86C6C9282165D1004BC81D /* LottieView1.swift */,
+				4D86C6D128218AF5004BC81D /* LottieView2.swift */,
+				4D86C6D528218ED8004BC81D /* LottieView.swift */,
+				4D86C6CF28217AFA004BC81D /* lf30_editor_hhraccf4.json */,
+				4D86C6D328218E95004BC81D /* lf30_editor_s11lodtv.json */,
+				4D86C6CD28216A6B004BC81D /* lf20_jUaIOT.json */,
+				4DD55CBA281FF68F00A03F42 /* HanddripGuide */,
 				4D0B8FDE281A181D005E4909 /* Assets.xcassets */,
 				4D0B8FE0281A181D005E4909 /* Preview Content */,
 			);
@@ -127,6 +202,57 @@
 			path = handDripCoffeeUITests;
 			sourceTree = "<group>";
 		};
+		4D0B9004281A7CC3005E4909 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4D0B9005281A7CD5005E4909 /* Extension */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4D0B9005281A7CD5005E4909 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4D0B9006281A7CE4005E4909 /* ColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4D86C6D728219AB3004BC81D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		4D86C6D828219AF0004BC81D /* HanddripGuideView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD1D933281F720B00EBBEE6 /* HanddripGuide.swift */,
+				4DD55CA8281FBC7B00A03F42 /* HanddripGuide2.swift */,
+				4DD55CAC281FC20B00A03F42 /* HanddripGuide3.swift */,
+				4DD55CB0281FC8D400A03F42 /* HanddripGuide4.swift */,
+				4DD55CB2281FC96600A03F42 /* HanddripGuide5.swift */,
+				4DD55CB4281FCAE300A03F42 /* HanddripGuide6.swift */,
+				4DD55CB6281FCBCE00A03F42 /* HanddripGuide7.swift */,
+				4DD55CB8281FF5EA00A03F42 /* HanddripGuide8.swift */,
+				4DD55CBB281FFD7200A03F42 /* HanddripGuide9.swift */,
+				4D86C6EC2822CABA004BC81D /* HanddripGuide10.swift */,
+				4D86C6EE2822CAC9004BC81D /* HanddripGuide11.swift */,
+				4D86C6F02822CAE1004BC81D /* HanddripGuide12.swift */,
+				4D86C6F22822CAED004BC81D /* HanddripGuide13.swift */,
+				4DD55CBD28200A7C00A03F42 /* HanddripGuideLast.swift */,
+			);
+			path = HanddripGuideView;
+			sourceTree = "<group>";
+		};
+		4DD55CBA281FF68F00A03F42 /* HanddripGuide */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HanddripGuide;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +269,9 @@
 			dependencies = (
 			);
 			name = handDripCoffee;
+			packageProductDependencies = (
+				4D86C6C7282165AB004BC81D /* Lottie */,
+			);
 			productName = handDripCoffee;
 			productReference = 4D0B8FD7281A1819005E4909 /* handDripCoffee.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +344,9 @@
 				Base,
 			);
 			mainGroup = 4D0B8FCE281A1819005E4909;
+			packageReferences = (
+				4D86C6C6282165AB004BC81D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 4D0B8FD8281A1819005E4909 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +363,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D86C6D428218E95004BC81D /* lf30_editor_s11lodtv.json in Resources */,
 				4D0B8FE2281A181D005E4909 /* Preview Assets.xcassets in Resources */,
 				4D0B8FDF281A181D005E4909 /* Assets.xcassets in Resources */,
+				4D86C6D028217AFA004BC81D /* lf30_editor_hhraccf4.json in Resources */,
+				4D86C6CE28216A6B004BC81D /* lf20_jUaIOT.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +392,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD1D934281F720B00EBBEE6 /* HanddripGuide.swift in Sources */,
+				4DCB2652281D8203006923C5 /* GridCardItem.swift in Sources */,
+				4DD55CBE28200A7C00A03F42 /* HanddripGuideLast.swift in Sources */,
+				4D86C6D228218AF5004BC81D /* LottieView2.swift in Sources */,
+				4DD55CBC281FFD7200A03F42 /* HanddripGuide9.swift in Sources */,
+				4D86C6ED2822CABA004BC81D /* HanddripGuide10.swift in Sources */,
+				4D0B9007281A7CE4005E4909 /* ColorExtension.swift in Sources */,
+				4DD55CB1281FC8D400A03F42 /* HanddripGuide4.swift in Sources */,
+				4DD55CB3281FC96600A03F42 /* HanddripGuide5.swift in Sources */,
 				4D0B8FDD281A1819005E4909 /* ContentView.swift in Sources */,
-				4D0B8FDB281A1819005E4909 /* handDripCoffeeApp.swift in Sources */,
+				4DD55CB5281FCAE300A03F42 /* HanddripGuide6.swift in Sources */,
+				4D86C6F12822CAE1004BC81D /* HanddripGuide12.swift in Sources */,
+				4DCB2654281D82DB006923C5 /* CoffeeInfo.swift in Sources */,
+				4D86C6CA282165D1004BC81D /* LottieView1.swift in Sources */,
+				4DCB2656281D8334006923C5 /* CoffeeSubInfo.swift in Sources */,
+				4D66C4092823959400EDC205 /* CoffeeDetail.swift in Sources */,
+				4DCB265A281D84BC006923C5 /* ToggleButton.swift in Sources */,
+				4D0B8FDB281A1819005E4909 /* HandDripCoffeeApp.swift in Sources */,
+				4D86C6F32822CAED004BC81D /* HanddripGuide13.swift in Sources */,
+				4D0B9009281B6BB1005E4909 /* MianSeletedBar.swift in Sources */,
+				4DD55CAD281FC20B00A03F42 /* HanddripGuide3.swift in Sources */,
+				4DD55CB7281FCBCE00A03F42 /* HanddripGuide7.swift in Sources */,
+				4D86C6EF2822CAC9004BC81D /* HanddripGuide11.swift in Sources */,
+				4DD55CC0282038EC00A03F42 /* SwiftUIView10.swift in Sources */,
+				4D86C6D628218ED8004BC81D /* LottieView.swift in Sources */,
+				4DD55CB9281FF5EA00A03F42 /* HanddripGuide8.swift in Sources */,
+				4DD55CA9281FBC7B00A03F42 /* HanddripGuide2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +743,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4D86C6C6282165AB004BC81D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D86C6C7282165AB004BC81D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D86C6C6282165AB004BC81D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4D0B8FCF281A1819005E4909 /* Project object */;
 }
