@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CoffeeInfo: Identifiable, Hashable {
+struct CoffeeInfo: Identifiable {
     var id = UUID()
     var title: String
     var subtitle: String
